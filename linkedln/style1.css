@@ -1,0 +1,397 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: linen;
+    max-width: 100%;
+    height: 1500px;
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    position: relative;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid white;
+    width: fit-content;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    background-color: white;
+    border-radius: 15px;
+}
+.boxone{
+width: 250px;
+height: 70px;
+background-color: black;
+border-top-left-radius:15px;
+border-top-right-radius: 15px;
+}
+.boxone img{
+    border-radius: 50%;
+    position: relative;
+    left: 75px;
+    top: 10px;
+    z-index: 1;
+}
+.boxtwo{
+    height: 270px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -10px;
+    border-radius: 7px;
+    position: relative;
+}
+.boxtwo .name{
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+.boxtwo p{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+}
+.boxtwo .para1{
+    text-align: left;
+    margin-left: 5px;
+
+}
+.boxtwo .para2{
+    text-align: left;
+    margin-top: 3px;
+    font-size: 13.5px;
+    margin-left: 5px;
+}
+.boxtwo .heading3{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+.boxtwo .para3{
+font-size: 13px;
+font-family: sans-serif;
+}
+.boxtwo .para4{
+    text-align: left;
+    margin-left: 10px;
+    font-variant: normal;
+    margin-top: -1px;
+
+}
+.boxtwo span{
+    float: right;
+    margin-top: -20px;
+    color: blue;
+    font-size: 17px;
+}
+.myitems{
+    margin-left: 14px;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+
+
+}
+.myitems i{
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+.boxthree{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    border-radius: 7px;
+}
+.boxthree ul{
+list-style-type: none;
+margin: 10px;
+}
+.boxthree ul li{
+    margin-top: 6px;
+           
+}
+.resent{
+margin: 12px;
+}
+.group{
+    margin: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.para5,.para6{
+margin: 10px;
+
+}
+.top-input-box{
+position: relative;
+left: 390px;
+top: 32px;
+border: 1px solid white;
+width: 630px;
+background-color: white;
+border-radius: 8px;
+padding: 10px 10px;
+padding-bottom: 25px;
+}
+.top-input-box input{
+    padding: 12px 190px;
+    border-radius: 20px;
+    margin-left: 10px;
+ 
+
+}
+
+.top-input-box img{
+    float: left;
+    border-radius: 50%;
+}
+.nav-list{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 17px;
+    margin-left: 30px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: black;
+
+}
+.middlebox{
+position: relative;
+left: 390px;
+top: 60px;
+background-color: white;
+width: 630px;
+height: 470px;
+}
+.middlebox img{
+    width: 630px;
+height: 470px;
+
+}
+.bottom-box{
+    position: relative;
+    left: 390px;
+    top: 61px;
+    width: 630px;
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: center;
+    float: left;
+    gap: 65px;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bottom-nav a{
+    text-decoration: none;
+    color: black;
+}
+i:hover{
+    color: rgba(0, 0, 255, 0.712);
+}
+.content2{
+    position: relative;
+    left: 390px;
+    top: 100px;
+
+}
+.content2 img{
+    width: 630px;
+    height: 470px;
+}
+.bottom-content{
+    background-color: white;
+    position: relative;
+    top: 96px;
+    left: 390px;
+    width: 630px;
+    border: 1px solid black;
+    height: 40px;
+}
+.bottom2{
+    display: flex;
+    justify-content: center;
+    float: left;
+    gap: 65px;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.bottom2 a{
+    list-style-type: none;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid ;
+    width: fit-content;
+    border-radius: 8px;
+    position: relative;
+    left: 650px;
+    bottom:1190px;
+    border: 2px solid white;
+}
+.rightone{
+width: 250px;
+height: 260px;
+border-radius: 5px;
+background-color: white;
+border: 1px solid white;
+}
+.righttwo{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    margin-top: -2px;
+    border-radius: 5px;
+border: 1px solid white;
+}
+.rightthree{
+    height: 370px;
+    width: 250px;
+    background-color: white;
+    margin-top: -2px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.news{
+    margin: 8px;
+    font-family: verdana;
+    font-size: 15px;
+}
+.news-information{
+    font-size: 16px;
+    margin-left: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+
+}
+.news-information li{
+   margin-top: 8px;
+
+}
+.p1{
+    opacity: 0.5;
+}
+.feed{
+    margin-left: 35px;
+   margin-top: 16px;
+   list-style-type: none;
+   font-size: 17px;
+}
+.feed li{
+    margin-top: 15px;
+    font-weight: 700;
+}
+.feed .insta{
+    color: red;
+}
+.feed .linkedin{
+    color: blue;
+}
+.feed .facebook{
+    color: blue;
+}
+.feed input{
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px 2px ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.feed input:hover{
+    background-color: rgba(0, 0, 255, 0.662);
+}
+::placeholder{
+   font-weight: 800;
+}
+
+.linkedin-search-bar{ 
+     padding: 12px 80px; 
+     border-radius: 1px; 
+     border: hidden; 
+     background-color: rgba(0, 217, 255, 0.292); 
+
+ }
+.header{
+    width: max-content;
+       position: relative;
+     left:220px; 
+}
+.header > i{
+    font-size: 45px;
+    margin: 10px;
+    color: darkblue;
+    position: relative;
+    top: 13px;   
+}
+.iconsbox{
+    display: flex;
+    position: absolute;
+    right: 210px;
+    top: 25px;
+    height: max-content;
+    width: max-content;
+}
+.icons-list{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+}
+.icons-list > li{
+    font-size: 20px;
+}
+li > p{
+    font-size: 15px;
+}
+.premium{
+border-left: 1px solid rgb(0, 0, 0);
+width: max-content;
+height: max-content;
+float: right;
+position: relative;
+bottom: 43px;
+right: 40px;
+padding: 5px;
+}
+.right-image{
+    border-radius: 50%;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+h5 a{
+    text-decoration:none;
+
+}
+h5 a:hover{
+    text-decoration:underline;
+}
+
